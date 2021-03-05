@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/projectSettingsUpdater.xml
+/.idea.Nobodys Life.iml
+/modules.xml
+/contentModel.xml
+# Datasource local storage ignored files
+/../../../../../../../../../../../../../:\Users\User\OneDrive\Uni\6. Semester at Hanze\Game Lab\GameLab Project\Nobody-s-Life\Nobodys Life\.idea\.idea.Nobodys Life\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
