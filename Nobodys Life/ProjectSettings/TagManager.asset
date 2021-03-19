@@ -8,6 +8,8 @@ TagManager:
   - Bed
   - Phone
   - Dishes
+  - Destroy
+  - Enable
   layers:
   - Default
   - TransparentFX

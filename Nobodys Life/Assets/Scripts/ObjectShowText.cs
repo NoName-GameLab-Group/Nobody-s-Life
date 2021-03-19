@@ -21,6 +21,13 @@
             {
                 triggerActive = true;
                 texttest.SetActive(false);
+                Destroy(texttest.gameObject);
+
+                if (objecta.CompareTag("Destroy")){
+                    objecta.SetActive(false);
+                }else if (objecta.CompareTag("Enable")){
+                    objecta.SetActive(true);
+                }
                 Destroy(this.gameObject);
             }
         } 
