@@ -41,10 +41,12 @@
 
                 void Update()
         {
+            if (texttest != null){
             if (triggerActive){
                 Primary();
             }else {
                 Secondary();
+            }
             }
         } 
         public void Primary()

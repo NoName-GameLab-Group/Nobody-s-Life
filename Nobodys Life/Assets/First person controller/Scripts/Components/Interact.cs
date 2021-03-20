@@ -27,17 +27,18 @@ public class Interact : MonoBehaviour
     void Awake()
     {
        // cam = Camera.main;
-        test2.SetActive(true);
+//        test2.SetActive(true);
     }
 
     void FixedUpdate(){
         ray.origin = transform.position;
         ray.direction = transform.forward;
          float distance = 90000f;
+        test2.SetActive(true);
 
         if(Physics.Raycast(ray, out hit2,distance) && hit2.transform.tag == "Test")
         {
-            Debug.Log("Hit (Test)");
+           // Debug.Log("Hit (Test)");
             counter++;
             test2.SetActive(false);
 
@@ -48,27 +49,11 @@ public class Interact : MonoBehaviour
         if (counter > 500){
 
                 Destroy(test);
-                Destroy(test2);
+               // Destroy(test2);
                 SceneManager.LoadScene(0);
 
         }
-       // RayCheck();
+      
     }
-    void RayCheck(){
-    Vector3 orig = cam.transform.position;
-    Vector3 destin = cam.transform.forward;
-    RaycastHit hit;
-    if (Physics.Raycast(orig,destin, out hit, distance)){
-                    Debug.Log("Hit (something)");
 
-        if (hit.transform.tag == "Test"){
-
-            Debug.Log("Hit (Test)");
-            if (Input.GetKeyDown(KeyCode.E))
-            {
-                hit.transform.gameObject.GetComponent<ObjectInteraction>().enabled = true;
-            }
-        }
-    }
-    }
 }
