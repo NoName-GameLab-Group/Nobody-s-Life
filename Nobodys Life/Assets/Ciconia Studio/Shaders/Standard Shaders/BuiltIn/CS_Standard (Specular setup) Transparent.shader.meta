@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 2914c939860ab3b40b0972bf8aedb87f
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _MainTex: {fileID: 2800000, guid: b28d9b3ec7ed2d74b90ba7f2925afdf7, type: 3}
+  - _BumpMap: {instanceID: 0}
+  - _SpecGlossMap: {instanceID: 0}
+  - _ParallaxMap: {instanceID: 0}
+  - _OcclusionMap: {instanceID: 0}
+  - _EmissionMap: {instanceID: 0}
+  - _DetailMask: {instanceID: 0}
+  - _DetailAlbedoMap: {instanceID: 0}
+  - _texcoord: {instanceID: 0}
+  - _DetailNormalMap: {instanceID: 0}
+  - _DetailSpecGlossMap: {instanceID: 0}
+  - _TransparentMask: {fileID: 2800000, guid: b28d9b3ec7ed2d74b90ba7f2925afdf7, type: 3}
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
