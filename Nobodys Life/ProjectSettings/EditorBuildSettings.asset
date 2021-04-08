@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/RoomDay.unity
     guid: c5107f5d1461c244c91300e8bc9ca763
   - enabled: 1
-    path: Assets/Scenes/RoomNight.unity
+    path: Assets/Scenes/RoomNightOld.unity
     guid: a161cc4529fe8874da98367408a623db
   m_configObjects: {}
