@@ -168,7 +168,7 @@ MonoBehaviour:
     maximumLODLevelMode: 0
     maximumLODLevelQualityLevel: 1
     sssQualityMode: 0
-    sssQualityLevel: 0
+    sssQualityLevel: 1
     sssCustomSampleBudget: 20
     materialQuality: 0
   m_RenderingPathDefaultBakedOrCustomReflectionFrameSettings:
@@ -201,7 +201,7 @@ MonoBehaviour:
     materialQuality: 0
   m_RenderPipelineSettings:
     supportShadowMask: 1
-    supportSSR: 0
+    supportSSR: 1
     supportSSRTransparent: 0
     supportSSAO: 1
     supportSSGI: 0
@@ -229,7 +229,7 @@ MonoBehaviour:
     customBufferFormat: 12
     supportedLitShaderMode: 2
     planarReflectionResolution:
-      m_Values: 000100000004000000080000
+      m_Values: 000100000004000000040000
       m_SchemaId:
         m_Id: With3Levels
     supportDecals: 1
@@ -430,11 +430,11 @@ MonoBehaviour:
       Fog_ControlMode: 000000000000000000000000
       Fog_Budget:
       - 0.166
-      - 0.33
+      - 1
       - 0.666
       Fog_DepthRatio:
       - 0.666
-      - 0.666
+      - 1
       - 0.5
   allowShaderVariantStripping: 1
   enableSRPBatcher: 1
