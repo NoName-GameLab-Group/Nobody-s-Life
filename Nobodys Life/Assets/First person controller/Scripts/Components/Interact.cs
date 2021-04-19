@@ -46,7 +46,7 @@ public class Interact : MonoBehaviour
 
         test2.SetActive(true);
         }
-        if (counter > 500){
+        if (counter > 300){
 
                 Destroy(test);
                // Destroy(test2);
